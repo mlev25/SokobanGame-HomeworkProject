@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #add8e6; -fx-border-color: blue;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.WelcomeController">
+   <children>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" style="-fx-border-radius: 2; -fx-font-weight: bold;" text="Welcome to the Sokoban Game" textAlignment="CENTER" textFill="#eda20c">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </Label>
+      <Line endX="100.0" startX="-498.21099853515625" startY="0.6213234066963196" stroke="#ff1c00" />
+      <Label text="Before You start the game, You have to enter your name:" textAlignment="CENTER" textFill="#ab6e2d">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <padding>
+            <Insets top="50.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="playerName" maxHeight="30.0" maxWidth="300.0" prefHeight="30.0" prefWidth="300.0">
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin>
+      </TextField>
+      <Button fx:id="startButton" maxHeight="65.0" maxWidth="100.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="65.0" style="-fx-background-color: yellow;" text="Start" textAlignment="CENTER" textFill="#eda20c">
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
