@@ -3,14 +3,16 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.unideb.inf</groupId>
-    <artifactId>homework-template-project<!-- TODO: replace "homework-template-project" with a suitable artifactId --></artifactId>
+    <artifactId>sokoban-game</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <description><!-- TODO: a brief description of your project --></description>
+    <description>On the wall-surrounded board shown in Figure 2, the player must push each ball onto one of the tiles marked with a square.
+        The player can move to an adjacent empty tile from their current position, or push a ball that is next to them, provided that the space behind the ball is empty.
+    </description>
     <developers>
         <developer>
-            <name><!-- TODO: your full name --></name>
-            <email><!-- TODO: your email address --></email>
+            <name>Mészáros Levente</name>
+            <email>mlevente25@mailbox.unideb.hu</email>
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://inf.unideb.hu/</organizationUrl>
         </developer>
@@ -24,7 +26,7 @@
         <jacoco.version>0.8.13</jacoco.version>
         <maven.checkstyle.version>3.6.0</maven.checkstyle.version>
         <maven.surefire.version>3.5.3</maven.surefire.version>
-        <exec.mainClass><!-- TODO: the fully-qualified class name of your class that contains the main() method to launch the application --></exec.mainClass>
+        <exec.mainClass>Main</exec.mainClass>
     </properties>
     <dependencies>
         <dependency>
