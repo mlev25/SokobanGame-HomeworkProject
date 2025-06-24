@@ -1,5 +1,7 @@
-package game;
+package game.controller;
 
+import game.datautil.Player;
+import game.datautil.PlayerDataManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

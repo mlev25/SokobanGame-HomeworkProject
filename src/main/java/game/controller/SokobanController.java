@@ -1,5 +1,8 @@
-package game;
+package game.controller;
 
+import game.datautil.PlayerDataManager;
+import game.conrollerutil.Coordinate;
+import game.conrollerutil.GameState;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

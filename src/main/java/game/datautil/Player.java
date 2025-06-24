@@ -1,4 +1,4 @@
-package game;
+package game.datautil;
 
 public class Player {
     private String name;

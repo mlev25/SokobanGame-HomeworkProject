@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #90D5FF; -fx-border-color: #57B9FF; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.LeaderBoardController">
+<VBox alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #90D5FF; -fx-border-color: #57B9FF; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.controller.LeaderBoardController">
    <children>
       <Button fx:id="closeButton" alignment="CENTER" mnemonicParsing="false" onAction="#handleClose" style="-fx-background-color: orange;" text="Close" textAlignment="CENTER" textFill="#141414">
          <VBox.margin>
